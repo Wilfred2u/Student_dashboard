@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #F0F0F0;
+    padding: 20px 40px;
+    font-family: Inter, sans-serif;
+    color: #323232;
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+
+p {
+    padding-right: 150px;
+}
+
+.chart {
+    margin-block: 12px;
+    background-color: whitesmoke;
+    border: 1px solid #323232;
+    border-radius: 6px;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: whitesmoke;
+    border: 1px solid #323232;
+    border-radius: 6px;
+    padding: 8px 24px;
+}
+
+input[type="checkbox"] {
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.1em solid currentColor;
+    margin-right: 0.2em;
+    border-radius: 0.15em;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin-right: 0.2em;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+label {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+button {
+    width: 12em;
+    height: 32px;
+    border: 0;
+    cursor: pointer;
+}
+
+.button-funchart {
+    margin-bottom: 5px;
+    background-color: #884EA0;
+}
+
+.button-difchart {
+    background-color: #F4D03F;
+}
